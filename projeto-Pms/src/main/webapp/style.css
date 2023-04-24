@@ -1,0 +1,192 @@
+/*
+* 
+* @Emanuel Almeida
+*/
+html,
+body,
+#home {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background: fixed url(../imagens/capa.png), url(../imagens/ruido.png),
+    linear-gradient(90deg, #1c1b1b, #7c26f8);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.navbar-transparente {
+  padding: 15px 0px;
+  background: rgba(39, 28, 58, 255);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #42a89d;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: transparent;
+  transition: 1s ease;
+}
+
+.navbar-light .navbar-toggler:hover {
+  background: #000000;
+  color: rgb(252, 252, 252);
+}
+
+.divisor {
+  width: 1px;
+  background: white;
+  height: 17px;
+  margin: 17px 15px;
+}
+
+/* Capa */
+.capa {
+  text-align: center;
+}
+
+.btn-custom {
+  color: white;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo {
+  background: #7c26f8;
+}
+.btn-roxo:hover {
+  background: #6207e3;
+  color: white;
+}
+.btn-branco {
+  border: 2px solid white;
+}
+.btn-branco:hover {
+  background: white;
+  color: black;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 5%;
+}
+
+/* Estrutu de conteudos */
+.caixa {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row h2 {
+  padding-bottom: 20px;
+}
+#servicosHotel h3,
+p {
+  margin-top: 1px;
+}
+#servicosHotel img {
+  height: 150px;
+  margin-bottom: 30px;
+  float: left;
+  margin-right: 10px;
+}
+#servicos {
+  background: transparent;
+}
+
+#servicos h2,
+h3 {
+  color: #a564ff;
+}
+p {
+  color: black;
+  font-weight: bolder;
+  text-align: justify;
+}
+
+#recursos p {
+  color: white;
+  font-size: 1.5em;
+}
+
+#recursos {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#recursos h3 {
+  color: #9bf0e1;
+}
+#recursos h2 {
+  color: white;
+}
+.albuns {
+  padding: 10px 0;
+}
+.rotacionar {
+  transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  padding-left: 100px;
+}
+
+/* Rodapé */
+.footer {
+  background: rgba(39, 28, 58, 255);
+}
+
+.footer p,
+a {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #a564ff;
+}
+
+/* Tipografia */
+
+h1 {
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  margin-bottom: 50px;
+  color: white;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.divisor2 {
+  width: 20px;
+  background: white;
+  height: 1px;
+  margin: 20px 12px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 765px) {
+  .mobile {
+    display: block;
+  }
+}
